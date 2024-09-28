@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Vampire Settlement",
+		"culture": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] <with [1] to [2] neighboring [Food source] tiles>",
+			"[+2 Food] <with [3] to [6] neighboring [Food source] tiles>",
+			"[+2 Culture] <after discovering [Radio]>",
+			"[+2 Culture] <after discovering [Social Engineering]>",
+			"[+2 Gold] <after discovering [Incentivization]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	}
+]
