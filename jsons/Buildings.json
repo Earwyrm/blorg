@@ -10,10 +10,34 @@
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]",
+			"Provides [1] [Slaves]",
 			"[+1 Happiness] [in this city] <when above [0] [Power]>"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Herd Quarters",
+		"uniqueTo": "Vampires",
+		"uniques": [
+			"Consumes [1] [Slaves]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"cost": 0,
+	},
+	{
+		"name": "Sanguine Estate",
+		"uniqueTo": "Vampires",,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"uniques": [
+			"Provides [1] [Slaves]",
+			"Automatically built in all cities where it is buildable",
+			"Gain a free [Shrine] [in this city]",
+			"[2] free [Thrall] units appear",
+		],
+		"cost": 0,
 	},
 ]
