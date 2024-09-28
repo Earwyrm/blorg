@@ -1,25 +1,19 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Vampire Town Hall",
+		"replaces": "Town Hall",
+		"uniqueTo": "Vampires",
+		"culture 2",
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"[+1 Happiness] [in this city] <when above [0] [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
 	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
 ]
