@@ -27,8 +27,8 @@
 			"[Military] units gain the [Blood-Feeder] promotion",
 			"Comment [[Settlement] Provides [1] [Slaves]]",
 			"Comment [[Town Hall] Provides [1] [Slaves]]",
-			"Comment [[City Center] Consumes [1] [Slaves]]",
-			"[+2 Production, +2 Science] from every [Citadel]"]
+			"Comment [[City Center] Consumes [1] [Slaves]]"
+		],
 		"cities": ["The Hive","Q'Throczan"]
 	}
 ]
