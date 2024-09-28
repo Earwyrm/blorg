@@ -4,12 +4,12 @@
 		"uniqueTo": "Vampires",
 		"replaces": "Great Administrator",
 		"unitType": "Civilian",
+		"promotions": ["Reconnaissance I"],
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"Can instantly construct a [Vampire Settlement] improvement <by consuming this unit>",
 			"May enter foreign tiles without open borders",
-			"promotions": ["Reconnaissance I"],
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
