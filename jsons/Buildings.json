@@ -53,6 +53,7 @@
 		],
 		"cost": 30
 	},
+	{
 		"name": "Feeding Grounds",
 		"replaces": "Food Store",
 		"uniqueTo": "Vampires",
@@ -68,6 +69,7 @@
 		],
 		"cost": 80
 	},
+	{
 		"name": "Thrall Homes",
 		"replaces": "Barracks",
 		"uniqueTo": "Vampires",
