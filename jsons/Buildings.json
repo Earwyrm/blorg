@@ -3,7 +3,7 @@
 		"name": "Vampire Town Hall",
 		"replaces": "Town Hall",
 		"uniqueTo": "Vampires",
-		"culture 2",
+		"culture": 2,
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
@@ -23,7 +23,7 @@
 			"Destroyed when the city is captured",
 			"Automatically built in all cities where it is buildable"
 		],
-		"cost": 0,
+		"cost": 0
 	},
 	{
 		"name": "Sanguine Estate",
@@ -38,7 +38,7 @@
 			"Gain a free [Shrine] [in this city]",
 			"[2] free [Thrall] units appear",
 		],
-		"cost": 0,
+		"cost": 0
 	},
 		"name": "Corral the Survivors",
 		"replaces": "Search for Survivors",
@@ -51,7 +51,7 @@
 			"[+10]% growth [in this city]",
 			"Provides [2] [Slaves]"
 		],
-		"cost": 30,
+		"cost": 30
 	},
 		"name": "Feeding Grounds",
 		"replaces": "Food Store",
@@ -66,7 +66,7 @@
 			"Destroyed when the city is captured",
 			"Consumes [1] [Slaves]"
 		],
-		"cost": 80,
+		"cost": 80
 	},
 		"name": "Thrall Homes",
 		"replaces": "Barracks",
@@ -79,6 +79,44 @@
 			"New [Thrall] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"cost": 50,
+		"cost": 50
 	},
+	{
+		"name": "Sweatshops",
+		"replaces": "Factory",
+		"uniqueTo": "Vampires",
+		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"food": -10},
+		"production": 2,
+		"happiness": -1,
+		"specialistSlots": { "Engineer": 1, "Administrator": 1},
+		"maintenance": 2,
+		"uniques": [
+			"Only available <with [Slaves]>",
+			"Consumes [2] [Slaves]",
+			"Only available <in cities with a [Library]>",
+			"[+2 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing",
+		"cost": 180
+	},
+	{
+		"name": "Settlement Consolidation",
+		"uniqueTo": "Vampires",
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"[+1 Food] from every [Administrator]",
+			"Creates a [Vampire Settlement] improvement on a specific tile",
+			"[-3 Culture] from [Vampire Settlement] tiles [in this city]",
+			"[+3 Food] from [Vampire Settlement] tiles [in this city]",
+			"[+1 Production] from [Vampire Settlement] tiles [in this city]",
+			"[+1 Gold] from [Vampire Settlement] tiles [in this city]"
+		]
+		"requiredtech": "Education",
+		"cost": 160
+	}
 ]
