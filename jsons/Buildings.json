@@ -9,7 +9,6 @@
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"Only available <with [Slaves]>",
 			"Provides [1] [Slaves]",
 			"[+1 Happiness] [in this city] <when above [0] [Power]>"
 		],
@@ -21,13 +20,14 @@
 		"uniqueTo": "Vampires",
 		"uniques": [
 			"Consumes [1] [Slaves]",
+			"Destroyed when the city is captured",
 			"Automatically built in all cities where it is buildable"
 		],
 		"cost": 0,
 	},
 	{
 		"name": "Sanguine Estate",
-		"uniqueTo": "Vampires",,
+		"uniqueTo": "Vampires",
 		"faith": 1,
 		"culture": 1,
 		"happiness": 1,
@@ -39,5 +39,46 @@
 			"[2] free [Thrall] units appear",
 		],
 		"cost": 0,
+	},
+		"name": "Corral the Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Vampires",
+		"happiness": -1,
+		"food": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+10]% growth [in this city]",
+			"Provides [2] [Slaves]"
+		],
+		"cost": 30,
+	},
+		"name": "Feeding Grounds",
+		"replaces": "Food Store",
+		"uniqueTo": "Vampires",
+		"percentStatBonus": {"food": 30},
+		"food": 1,
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+10]% growth [in this city]",
+			"[+30]% [food] [in this city]",
+			"Only available <with [Slaves]>",
+			"Destroyed when the city is captured",
+			"Consumes [1] [Slaves]"
+		],
+		"cost": 80,
+	},
+		"name": "Thrall Homes",
+		"replaces": "Barracks",
+		"uniqueTo": "Vampires",
+		"happiness": -1,
+		"uniques": [
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"New [Thrall] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"cost": 50,
 	},
 ]
