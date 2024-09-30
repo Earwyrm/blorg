@@ -1,16 +1,19 @@
 [
 	{
-		"name": "Vampire Town Hall",
+		"name": "Banquet Hall",
 		"replaces": "Town Hall",
 		"uniqueTo": "Vampires",
+		"percentStatBonus": {"food": 10},
 		"culture": 2,
+		"happiness": 1,
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
 			"[-25]% Culture cost of natural border growth [in this city]",
-			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"Provides [1] [Slaves]",
-			"[+1 Happiness] [in this city] <when above [0] [Power]>"
+			"Creates a [Fiefdom] improvement on a specific tile",
+			"[-25]% Gold cost of acquiring tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
@@ -113,11 +116,11 @@
 		"maintenance": 2,
 		"uniques": [
 			"[+1 Food] from every [Administrator]",
-			"Creates a [Vampire Settlement] improvement on a specific tile",
-			"[-3 Culture] from [Vampire Settlement] tiles [in this city]",
-			"[+3 Food] from [Vampire Settlement] tiles [in this city]",
-			"[+1 Production] from [Vampire Settlement] tiles [in this city]",
-			"[+1 Gold] from [Vampire Settlement] tiles [in this city]"
+			"Creates a [Fiefdom] improvement on a specific tile",
+			"[-3 Culture] from [Fiefdom] tiles [in this city]",
+			"[+3 Food] from [Fiefdom] tiles [in this city]",
+			"[+1 Production] from [Fiefdom] tiles [in this city]",
+			"[+1 Gold] from [Fiefdom] tiles [in this city]"
 		]
 		"requiredtech": "Education",
 		"cost": 160
