@@ -1,12 +1,14 @@
 [
 	{
-		"name": "Vampire Settlement",
+		"name": "Fiefdom",
 		"culture": 4,
+		"gold": 2,
+		"happiness" 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"[+1 Food] <with [1] to [2] neighboring [Food source] tiles>",
-			"[+2 Food] <with [3] to [6] neighboring [Food source] tiles>",
+			"Gives a defensive bonus of [20]%",
+			"[+1 Culture] <with [1] to [6] neighboring [Fiefdom] tiles>",
+			"[+1 Food] <with [3] to [6] neighboring [Food source] tiles>",
 			"[+2 Culture] <after discovering [Radio]>",
 			"[+2 Culture] <after discovering [Social Engineering]>",
 			"[+2 Gold] <after discovering [Incentivization]>",
