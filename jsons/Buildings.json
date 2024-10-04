@@ -9,7 +9,6 @@
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
-			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"Creates a [Fiefdom] improvement on a specific tile",
@@ -67,7 +66,6 @@
 			"[+1] population [in this city]",
 			"[+10]% growth [in this city]",
 			"[+30]% [food] [in this city]",
-			"Only available <with [Slaves]>",
 			"Destroyed when the city is captured",
 			"Consumes [1] [Slaves]"
 		],
@@ -79,7 +77,6 @@
 		"uniqueTo": "Vampires",
 		"happiness": -1,
 		"uniques": [
-			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"New [Thrall] units start with [15] Experience [in this city]",
@@ -98,7 +95,6 @@
 		"specialistSlots": { "Engineer": 1, "Administrator": 1},
 		"maintenance": 2,
 		"uniques": [
-			"Only available <with [Slaves]>",
 			"Consumes [2] [Slaves]",
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
