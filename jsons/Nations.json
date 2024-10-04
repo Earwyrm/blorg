@@ -25,9 +25,8 @@
 		"uniques":[
 			"[-60]% growth [in all cities]",
 			"[Military] units gain the [Blood-Feeder] promotion",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Food] [in capital]",
-			"Comment [[Settlement] Provides [1] [Slaves]]",
-			"Comment [[Town Hall] Provides [1] [Slaves]]",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Food] in a random city",
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle]",
 			"Comment [[City Center] Consumes [1] [Slaves]]"
 		],
 		"cities": ["The Hive","Q'Throczan"]
