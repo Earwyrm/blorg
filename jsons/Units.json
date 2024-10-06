@@ -15,5 +15,23 @@
 			"Uncapturable"
 		],
 		"movement": 2
+	},
+	{
+		
+		"name": "Vampire",
+		"unitType": "Scrapper",
+		"uniqueTo": "Vampires",
+		"replaces": "Great General",
+		"movement": 2,
+		"strength": 45,
+		"cost": 500,
+		"uniques": [
+			"Low Tech",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+		],
+		"promotions": ["[Vampire] ability", "Reconnaissance I"],
+		"attackSound": "nonmetalhit"
 	}
 ]
