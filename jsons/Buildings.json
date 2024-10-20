@@ -114,10 +114,7 @@
 		"uniques": [
 			"[+1 Food] from every [Administrator] [in this city]",
 			"Creates a [Fiefdom] improvement on a specific tile",
-			"[-3 Culture] from [Fiefdom] tiles [in this city]",
-			"[+2 Food] from [Fiefdom] tiles [in this city]",
-			"[+1 Production] from [Fiefdom] tiles [in this city]",
-			"[+2 Gold] from [Fiefdom] tiles [in this city]"
+			"[+1 Food, +1 production, +1 gold] from [Fiefdom] tiles [in this city]",
 		]
 		"requiredtech": "Education",
 		"cost": 160
