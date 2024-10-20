@@ -76,7 +76,7 @@
 		"name": "Thrall Homes",
 		"replaces": "Barracks",
 		"uniqueTo": "Vampires",
-		"happiness": -1,
+		"happiness": 1,
 		"uniques": [
 			"Consumes [1] [Slaves]",
 			"New [Military] units start with [15] Experience [in this city]",
