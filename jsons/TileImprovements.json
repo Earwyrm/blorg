@@ -3,7 +3,7 @@
 		"name": "Fiefdom",
 		"culture": 4,
 		"gold": 2,
-		"happiness:" 1,
+		"happiness": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [20]%",
