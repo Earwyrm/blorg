@@ -39,6 +39,7 @@
 			"Automatically built in all cities where it is buildable",
 			"Gain a free [Shrine] [in this city]",
 			"[2] free [Thrall] units appear",
+			"Can only be built <in [Capital] cities>"
 		],
 		"cost": 0
 	},
