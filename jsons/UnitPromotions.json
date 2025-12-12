@@ -1,1 +1,17 @@
 [
+	{
+		"name": "Blood Feeder",
+		"uniques": [
+			"[+15]% Strength <vs [Wounded] units>",
+			"[+5] HP when healing <in [Jungle] tiles>",
+			"Heals [25] damage if it kills a unit"
+		]
+    },
+	{
+		"name": "Vampire",
+		"uniques": [
+			"[+15]% Strength <vs [Wounded] units>",
+			"[+100] HP"
+		]
+    },
+]
