@@ -28,6 +28,28 @@
 		"cost": 0
 	},
 	{
+		"name": "BPaP Center",
+		"replaces": "Hospital",
+		"uniqueTo": "Vampires",
+		"happiness": -1,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
+			"[10]% Food is carried over after population increases [in this city] <after discovering [Laboratory]>",
+			"[10]% Food is carried over after population increases [in this city] <after discovering [Genetics]>",
+			"[10]% Food is carried over after population increases [in this city] <after discovering [Pharmaceuticals]>",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
+			"[+10]% [Food] [in this city] <with [Harvested Organs]>",
+			"[+1 Food] from [Fiefdom] tiles [in this city]",
+			"[+1 Food] from every [Banquet Hall] [in this city]",
+			"[+1 Food] from [City Center] tiles [in this city]",
+			"Consumes [1] [Slaves]",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
 		"name": "Sanguine Estate",
 		"uniqueTo": "Vampires",
 		"faith": 1,
@@ -48,11 +70,11 @@
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Vampires",
 		"happiness": -1,
-		"food": 1,
+		"food": 2,
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1] population [in this city]",
-			"[+10]% growth [in this city]",
+			"[+20]% growth [in this city]",
 			"Provides [2] [Slaves]"
 		],
 		"cost": 30
@@ -61,12 +83,11 @@
 		"name": "Feeding Grounds",
 		"replaces": "Food Store",
 		"uniqueTo": "Vampires",
-		"percentStatBonus": {"food": 30},
-		"food": 1,
+		"food": 2,
 		"uniques": [
 			"[+1] population [in this city]",
 			"[+10]% growth [in this city]",
-			"[+30]% [food] [in this city]",
+			"[+30]% [Food] [in this city]",
 			"Destroyed when the city is captured",
 			"Consumes [1] [Slaves]"
 		],
@@ -96,7 +117,7 @@
 		"specialistSlots": { "Engineer": 1, "Administrator": 1},
 		"maintenance": 2,
 		"uniques": [
-			"Consumes [2] [Slaves]",
+			"Consumes [1] [Slaves]",
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
