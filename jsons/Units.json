@@ -6,8 +6,6 @@
 		"unitType": "Civilian",
 		"promotions": ["Reconnaissance I"],
 		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
 			"Can instantly construct a [Fiefdom] improvement <by consuming this unit>",
 			"May enter foreign tiles without open borders",
 			"Great Person - [Culture]",
@@ -17,7 +15,41 @@
 		"movement": 2
 	},
 	{
-		
+		"name": "Thrall",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 30,
+		"cost": 65,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Modern Thrall",
+		"uniques": [
+			"Thrall",
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Modern Thrall",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Thrall",
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Vampire",
 		"unitType": "Scrapper",
 		"uniqueTo": "Vampires",
@@ -26,6 +58,9 @@
 		"strength": 45,
 		"cost": 500,
 		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Thrall] units within [1] tiles",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"Low Tech",
 			"Great Person - [War]",
 			"Can be earned through combat",
